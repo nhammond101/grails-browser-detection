@@ -1,5 +1,5 @@
 class BrowserDetectionGrailsPlugin {
-    def version = "1.0.1"
+    def version = "1.0.2"
     def grailsVersion = "2.3 > *"
 
     def author = "Gennady Tsarik"
@@ -15,4 +15,6 @@ This plugin provides service and tag library for browser detection. You can know
 			"grails-app/views/error.gsp",
 			"grails-app/views/index.gsp"
 	]
+
+    def developers = [ [ name: "Nick Hammond", email: "nick@brightskyapps.com" ]]
 }

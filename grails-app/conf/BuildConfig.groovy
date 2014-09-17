@@ -12,6 +12,7 @@ grails.project.dependency.resolution = {
 
 	repositories {
 		grailsCentral()
+		mavenCentral()
         mavenRepo 'https://raw.githubusercontent.com/HaraldWalker/user-agent-utils/mvn-repo/'
     }
 
